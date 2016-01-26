@@ -1,5 +1,6 @@
 #include "fixarray.h"
-#include <string.h> /* For memcpy() */
+//#include <string.h> /* For memcpy() */
+#define memcpy __builtin_memcpy
 
 #ifdef FIXMATH_NO_64BIT
 
